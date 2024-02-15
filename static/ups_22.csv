@@ -1,0 +1,9 @@
+Model;Model;Модель пристрою;0;UPS602R2RT0B035
+battStatus;Batrerey Status;Статус батареї (від 0 до 5 де 0 - нормально 5- погано);0;0
+battCapacity;Battery Capacity;Ємність;%;100 %
+battVolt;Volttage;Напруга;v;192 v
+battTemp;Temperature;Температура;C;19 C
+inVolt;Input Volltage;Вхідна напруга;v;230.9 v
+outputVolt;Output Volltage;Вихідна напруга;v;230 v
+outputFreq;Frequency;Частота;Hz;50.0 Hz
+outputVolt;Battery Volltage;Напруга(дефолт);v;230 v

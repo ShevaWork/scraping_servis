@@ -1,0 +1,9 @@
+Model;Model;Модель пристрою;0;
+battStatus;Batrerey Status;Статус батареї (від 0 до 5 де 0 - нормально 5- погано);0;
+battCapacity;Battery Capacity;Ємність;%;
+battVolt;Volttage;Напруга;v;
+battTemp;Temperature;Температура;C;
+inVolt;Input Volltage;Вхідна напруга;v;
+outputVolt;Output Volltage;Вихідна напруга;v;
+outputFreq;Frequency;Частота;Hz;
+outputVolt;Battery Volltage;Напруга(дефолт);v;
