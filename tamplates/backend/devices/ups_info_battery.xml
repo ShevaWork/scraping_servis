@@ -1,0 +1,48 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<root>
+<LIN_PRODUCT_NAME>Mini-SNMP</LIN_PRODUCT_NAME>
+<LIN_LOGIN_LEVEL>0</LIN_LOGIN_LEVEL>
+<LIN_SENSOR_MENU/>
+<WEB_REFRESH>8</WEB_REFRESH>
+<LIN_LANG>0</LIN_LANG>
+<SYS_TIME>754485340</SYS_TIME>
+<MaskR>0x00000000</MaskR>
+<MaskW>0x00000000</MaskW>
+<batt>
+<Value id="battStatus">0</Value>
+<Value id="battStatusCharge">1</Value>
+<Value id="onBattTime">0</Value>
+<Value id="battCapacity">100</Value>
+<Value id="battCapacityNegative">-</Value>
+<Value id="battVolt">220.7</Value>
+<Value id="battVoltNegative">-</Value>
+<Value id="battCurr">-</Value>
+<Value id="battCurrNegative">-</Value>
+<Value id="battRemainingTime">162</Value>
+<Value id="battTemp">21</Value>
+<Value id="replaceDateLast">11/14/2019</Value>
+<Value id="replaceDateNext">11/14/2022</Value>
+<Class id="battStatus">2</Class>
+<Class id="battStatusCharge">2</Class>
+<Class id="onBattTime">2</Class>
+<Class id="battCapacity">2</Class>
+<Class id="battVolt">2</Class>
+<Class id="battCurr">2</Class>
+<Class id="battRemainingTime">2</Class>
+<Class id="battTemp">2</Class>
+<nagativeBattCapacity>-</nagativeBattCapacity>
+</batt>
+<batt_Li>
+<Available>0</Available>
+<Num>0</Num>
+<Mask>0</Mask>
+<StringContent>
+<STRID>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</STRID>
+<VOLT>0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0</VOLT>
+<CURR>0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0</CURR>
+<TEMP>0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0</TEMP>
+<SOH>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</SOH>
+<SOC>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</SOC>
+</StringContent>
+</batt_Li>
+</root>

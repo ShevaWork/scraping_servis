@@ -1,0 +1,45 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<root>
+<LIN_PRODUCT_NAME>Mini-SNMP</LIN_PRODUCT_NAME>
+<LIN_LOGIN_LEVEL>0</LIN_LOGIN_LEVEL>
+<LIN_SENSOR_MENU/>
+<WEB_REFRESH>8</WEB_REFRESH>
+<LIN_LANG>0</LIN_LANG>
+<SYS_TIME>754485362</SYS_TIME>
+<MaskR>0x00000000</MaskR>
+<MaskW>0x00000000</MaskW>
+<input>
+<inputPhases>1</inputPhases>
+<Value id="inFreq">50.0 </Value>
+<Value id="inVolt">226.5 </Value>
+<Class id="inFreq">2</Class>
+<Class id="inVolt">2</Class>
+</input>
+<bypass>
+<bypassPhases>1</bypassPhases>
+<Value id="bypassFreq">50.0</Value>
+<Value id="bypassVolt">225.9 </Value>
+<Value id="bypassPower">0 </Value>
+<Class id="bypassFreq">2</Class>
+<Class id="bypassVolt">2</Class>
+<Class id="bypassPower">2</Class>
+</bypass>
+<output>
+<outputPhases>1</outputPhases>
+<Value id="outputSource">0</Value>
+<Value id="outputSource">0</Value>
+<Value id="outputFreq">50.0</Value>
+<Value id="outputVolt">230.0 </Value>
+<Value id="outputPower">2204 </Value>
+<Value id="outputLoading">39 </Value>
+<Class id="outputSource">2</Class>
+<Class id="outputFreq">2</Class>
+<Class id="outputVolt">0</Class>
+<Class id="outputPower">2</Class>
+<Class id="outputLoading">2</Class>
+</output>
+<outlet>
+<OutletNum>1</OutletNum>
+<OutletStatus>0 255 255 255 255 255 255 255 </OutletStatus>
+</outlet>
+</root>

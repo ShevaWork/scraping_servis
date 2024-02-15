@@ -1,0 +1,34 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<root>
+<LIN_PRODUCT_NAME>Mini-SNMP</LIN_PRODUCT_NAME>
+<LIN_LOGIN_LEVEL>0</LIN_LOGIN_LEVEL>
+<LIN_SENSOR_MENU/>
+<WEB_REFRESH>8</WEB_REFRESH>
+<LIN_LANG>0</LIN_LANG>
+<SYS_TIME>754485402</SYS_TIME>
+<MaskR>0x00000000</MaskR>
+<MaskW>0x00000000</MaskW>
+<info>
+<ecoMode>0</ecoMode>
+<upsType>0</upsType>
+<Class id="row1">0 1</Class>
+<Class id="row2">0 0</Class>
+<Class id="row2">0 0</Class>
+<Class id="row2">0 0</Class>
+<Class id="row2">0 0</Class>
+<Class id="row2">0 0</Class>
+<Class id="row2">0 0</Class>
+<Class id="row2">0 0</Class>
+<Class id="row2">0 0</Class>
+<Class id="row3">0 0</Class>
+<Class id="row3">0 0</Class>
+<Class id="row3">0 0</Class>
+<Class id="row3">0 0</Class>
+<Class id="row3">0 0</Class>
+<Class id="row3">0 0</Class>
+<Class id="row3">0 0</Class>
+<Class id="row3">0</Class>
+<AvailableMask1>0x1EBFEFFF</AvailableMask1>
+<AvailableMask2>0x00000001</AvailableMask2>
+</info>
+</root>

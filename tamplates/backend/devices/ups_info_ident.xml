@@ -1,0 +1,29 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<root>
+<LIN_PRODUCT_NAME>Mini-SNMP</LIN_PRODUCT_NAME>
+<LIN_LOGIN_LEVEL>0</LIN_LOGIN_LEVEL>
+<LIN_SENSOR_MENU/>
+<WEB_REFRESH>8</WEB_REFRESH>
+<LIN_LANG>0</LIN_LANG>
+<SYS_TIME>754485383</SYS_TIME>
+<MaskR>0x00000000</MaskR>
+<MaskW>0x00000000</MaskW>
+<Identification>
+<Value id="Model">UPS602R2RT0B035</Value>
+<Value id="Type">0</Value>
+<Value id="UpsFirmware">0F0011BR00.00.00</Value>
+<Value id="WebFirmware">02.01.28a</Value>
+<Class id="ident">0</Class>
+</Identification>
+<Rating>
+<Value id="VA">6.0</Value>
+<Value id="Power">6.00</Value>
+<Value id="inputVolt">230</Value>
+<Value id="outputVolt">230</Value>
+<Value id="freq">50.0</Value>
+<Value id="battVolt">192</Value>
+<Value id="highTransVolt">0</Value>
+<Value id="lowTransVolt">0</Value>
+<Class id="rating">0</Class>
+</Rating>
+</root>

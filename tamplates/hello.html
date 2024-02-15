@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Моніторинг пристроїв</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <button class="qr-button" onclick="showQRCode()">Посилання на телеграм-бот</button>
+  <div id="qr-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="hideQRCode()">&times;</span>
+      <img src="{{ url_for('static', filename='qr_tg.svg') }}" alt="QR Code">
+      <p style="text-align: center;font-weight: bold;"><a href="https://t.me/test_magistr_bot" target="_blank">Перейти до телеграм-боту</a></p>
+    </div>
+  </div>
+    <div class="add_devices">
+        <ul class="dropdown">
+          <li class="dropdown-toggle" data-toggle="dropdown">
+            <a href="#" class="add-remote">Додати\видалити девайс</a>
+            <span class="caret"></span>
+          </li>
+          <ul class="dropdown-menu">
+            <li><div>
+                <h3>Додати девайс</h3>
+                <form action="/" method="post">
+                  <div class="device-list">
+                    <div class="center_text">Девайси:</div>
+                    <ul>
+                      <li>
+                        <input type="radio" name="device" id="add_conder" value="кондиціонер">
+                        <label for="кондиціонер">Кондиціонер</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="device" id="add_ups" value="ДБЖ">
+                        <label for="ДБЖ">ДБЖ</label>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="input-field">
+                    <label for="input">Введіть адресу пристрою:</label>
+                    <input type="text" name="input" id="add_ip-device">
+                  </div>
+                  <button class="add-remote_button" onclick="addDevice()">Додати</button>
+                </form>
+            </div></li>
+            <li><div>
+                <h3>Видалити девайс</h3>
+                <form action="/" method="post">
+                  <div class="center_text">Девайси:</div>
+                  <ul id="remote_device-ul">
+                  </ul>
+                  <button class="add-remote_button" onclick="remoteDevice()">Видалити</button>
+                </form>
+            </div></li>
+          </ul>
+        </ul>
+    </div>
+    <div class="devices">
+        <ul class="tabs" id="tabs"></ul>
+        <div class="content"></div>
+    </div>
+</body>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</html>
